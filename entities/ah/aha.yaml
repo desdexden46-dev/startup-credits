@@ -19,8 +19,6 @@ profile:
 sources:
 - source_id: src_41f0c7545aa93e6abee4822de2312791900d21be6bb2da8bedadb89aeb2bb15d
   url: https://www.aha.io/product/startups
-- source_id: src_e0f54ef6818487b96af8540a4619fe22e5baa79f2e43a6d15b41766c30667481
-  url: https://support.aha.io/aha-roadmaps/account/account-plans/aha-startup-plan~7444657283419661880
 programs: []
 offers:
 - offer_id: off_01m4wp1bnmsbshravf2gc665s2
@@ -57,9 +55,10 @@ offers:
     access_operator_entity_id: ent_01m4wp1bnknczmft1pw5a8vqr5
   access:
     availability: public
-    method: contact
-    url: https://support.aha.io/aha-roadmaps/account/account-plans/aha-startup-plan~7444657283419661880
+    method: form
+    url: https://www.aha.io/company/contact
+    instructions: Sign up for a free 30-day trial, use Aha! Roadmaps, then follow
+      the Request the special discount link on the startup page.
   terms_url: https://www.aha.io/product/startups
   source_ids:
   - src_41f0c7545aa93e6abee4822de2312791900d21be6bb2da8bedadb89aeb2bb15d
-  - src_e0f54ef6818487b96af8540a4619fe22e5baa79f2e43a6d15b41766c30667481
