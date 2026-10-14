@@ -1,0 +1,65 @@
+schema_version: sourcey.entity-authoring/v1alpha1
+entity:
+  entity_id: ent_01m4wp1bnknczmft1pw5a8vqr5
+  slug: aha
+  slug_aliases: []
+  name: Aha!
+  domains:
+  - value: aha.io
+    role: primary
+    valid_from: '2026-10-14T07:46:39.924000Z'
+  category: productivity
+profile:
+  description: Product management software for strategy, team collaboration, and visual
+    roadmaps.
+  summary: Aha! provides software for product strategy, collaboration, and visual
+    roadmaps.
+  links:
+    site: https://www.aha.io
+sources:
+- source_id: src_41f0c7545aa93e6abee4822de2312791900d21be6bb2da8bedadb89aeb2bb15d
+  url: https://www.aha.io/product/startups
+- source_id: src_e0f54ef6818487b96af8540a4619fe22e5baa79f2e43a6d15b41766c30667481
+  url: https://support.aha.io/aha-roadmaps/account/account-plans/aha-startup-plan~7444657283419661880
+programs: []
+offers:
+- offer_id: off_01m4wp1bnmsbshravf2gc665s2
+  offer_slug: aha-roadmaps-startup-pack
+  offer_slug_aliases: []
+  title: Aha! Roadmaps Startup Pack
+  summary: Qualifying technology or internet startups receive discounted Aha! Roadmaps
+    pricing for 5 users for 12 months and a 40-minute best-practices session.
+  lifecycle:
+    status: active
+    effective_from: '2026-10-14T07:46:39.924000Z'
+  economics:
+    consideration:
+      kind: unknown
+      description: A paid discounted plan; the source does not publish the price or
+        discount percentage.
+    benefits:
+    - benefit_id: ben_discount
+      kind: other
+      description: Discounted Aha! Roadmaps plan for 5 users for 12 months; discount
+        amount is not publicly specified.
+    - benefit_id: ben_session
+      kind: other
+      description: A 40-minute best-practices session.
+  eligibility:
+    rule:
+      kind: manual
+      criterion_id: cri_startup_eligibility
+      statement: New Aha! Roadmaps account; technology or internet company; less than
+        18 months old; fewer than 10 employees; less than $1.5M in funding.
+      reason: not-machine-evaluable
+  roles:
+    terms_authority_entity_id: ent_01m4wp1bnknczmft1pw5a8vqr5
+    access_operator_entity_id: ent_01m4wp1bnknczmft1pw5a8vqr5
+  access:
+    availability: public
+    method: contact
+    url: https://support.aha.io/aha-roadmaps/account/account-plans/aha-startup-plan~7444657283419661880
+  terms_url: https://www.aha.io/product/startups
+  source_ids:
+  - src_41f0c7545aa93e6abee4822de2312791900d21be6bb2da8bedadb89aeb2bb15d
+  - src_e0f54ef6818487b96af8540a4619fe22e5baa79f2e43a6d15b41766c30667481
